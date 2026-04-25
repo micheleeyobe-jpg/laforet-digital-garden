@@ -2,7 +2,7 @@ import { useState } from "react";
 import { menu, formatUGX } from "@/data/menu";
 import { SectionHeading } from "../SectionHeading";
 import { Reveal } from "../Reveal";
-import dish from "@/assets/dish-placeholder.jpg";
+import dish from "@/assets/menu/laforet-logo.jpg";
 
 export const Menu = () => {
   const [active, setActive] = useState(menu[0].id);
@@ -44,7 +44,7 @@ export const Menu = () => {
             >
               <div className="relative w-28 sm:w-32 flex-shrink-0 overflow-hidden bg-muted">
                 <img
-                  src={item.image || dish}
+                  src={dish}
                   alt={item.name}
                   loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
