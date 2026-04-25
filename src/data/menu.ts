@@ -1,3 +1,11 @@
+ import atrostoImg from "@/assets/menu/atrosto.jpg";
+ import beefSandImg from "@/assets/menu/beef-sand.jpg";
+ import chickenSandImg from "@/assets/menu/chicken-sand.jpg";
+ import clubSandImg from "@/assets/menu/club-sand.jpg";
+ import vegSandImg from "@/assets/menu/veg-sand.jpg";
+ import beefSandVegImg from "@/assets/menu/beef-sand-veg.jpg";
+ import steakSandImg from "@/assets/menu/steak-sand.jpg";
+ 
 // Add / edit / remove menu items here. Each category renders editable cards.
 export type MenuItem = {
   name: string;
@@ -32,13 +40,13 @@ export const menu: MenuCategory[] = [
     id: "sandwiches",
     title: "Sandwiches",
     items: [
-      { name: "Atrosto Sandwich", price: 18000, description: d.sand },
-      { name: "Beef Sandwich", price: 20000, description: d.sand },
-      { name: "Chicken Sandwich", price: 20000, description: d.sand },
-      { name: "Club Sandwich", price: 25000, description: d.sand },
-      { name: "Veg Sandwich", price: 20000, description: d.sand },
-      { name: "Beef Sand Veg", price: 25000, description: d.sand },
-      { name: "Steak Sandwich", price: 20000, description: d.sand },
+       { name: "Atrosto Sandwich", price: 18000, description: d.sand, image: atrostoImg },
+       { name: "Beef Sandwich", price: 20000, description: d.sand, image: beefSandImg },
+       { name: "Chicken Sandwich", price: 20000, description: d.sand, image: chickenSandImg },
+       { name: "Club Sandwich", price: 25000, description: d.sand, image: clubSandImg },
+       { name: "Veg Sandwich", price: 20000, description: d.sand, image: vegSandImg },
+       { name: "Beef Sand Veg", price: 25000, description: d.sand, image: beefSandVegImg },
+       { name: "Steak Sandwich", price: 20000, description: d.sand, image: steakSandImg },
     ],
   },
   {

@@ -17,7 +17,7 @@ export const Hero = () => (
     <div className="container relative z-10 pt-28 pb-20">
       <div className="max-w-3xl">
         <p className="text-xs md:text-sm tracking-[0.5em] uppercase text-gold mb-6 opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          Kampala · Est. Luxury Lounge
+           Kampala · Luxury Bar & bistro
         </p>
         <h1
           className="font-serif text-6xl sm:text-7xl md:text-8xl lg:text-9xl leading-[0.95] text-foreground opacity-0 animate-fade-in"
