@@ -57,7 +57,6 @@ export const menu: MenuCategory[] = [
       { name: "Omelette", price: 12000, description: d.break },
       { name: "Scrambled Eggs", price: 10000, description: d.break },
       { name: "Chapati with Beans", price: 5000, description: d.break },
-      { name: "G-Nut with Bread", price: 10000, description: d.break },
       { name: "Porridge", price: 6000, description: d.break },
       { name: "Tom and Jerry", price: 6000, description: d.break },
       { name: "Rolex", price: 10000, description: d.break },
