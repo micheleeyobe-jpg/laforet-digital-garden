@@ -2,9 +2,9 @@
 export const site = {
   name: "La Forêt",
   full: "La Forêt Bar & Bistro",
-  tagline: "Luxury Lounge & Bistro Experience",
-  hours: "Open daily | 6PM – Late",
-  address: "Near Landmark View Hotel Ltd, off Ggaba Road, Kampala",
+   tagline: "Luxury Bar & Bistro Experience",
+   hours: "Open daily | 8:00 am",
+   address: "Plot 3161 Bukasa Close, Muyenga, Tank Hill Road, Kampala, Uganda",
   phone: "0703102056",
   whatsapp: "0706523237",
   whatsappIntl: "256706523237",
