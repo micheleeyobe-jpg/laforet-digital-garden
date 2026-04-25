@@ -5,6 +5,14 @@
  import vegSandImg from "@/assets/menu/veg-sand.jpg";
  import beefSandVegImg from "@/assets/menu/beef-sand-veg.jpg";
  import steakSandImg from "@/assets/menu/steak-sand.jpg";
+import breakfastImg from "@/assets/menu/special-breakfast.jpg";
+import omeletteImg from "@/assets/menu/omelette.jpg";
+import scrambledImg from "@/assets/menu/scrambled-eggs.jpg";
+import chapatiGravyImg from "@/assets/menu/chapati-gravy.jpg";
+import rolexImg from "@/assets/menu/rolex.jpg";
+import qchiaImg from "@/assets/menu/qchia-fitfit.jpg";
+import toastImg from "@/assets/menu/toast.jpg";
+import fruitSaladImg from "@/assets/menu/fruit-salad.jpg";
  
 // Add / edit / remove menu items here. Each category renders editable cards.
 export type MenuItem = {
@@ -53,14 +61,14 @@ export const menu: MenuCategory[] = [
     id: "breakfast",
     title: "Breakfast",
     items: [
-      { name: "La Forêt Special Breakfast", price: 30000, description: d.break },
-      { name: "Omelette", price: 12000, description: d.break },
-      { name: "Scrambled Eggs", price: 10000, description: d.break },
-      { name: "Chapati with Beans", price: 5000, description: d.break },
-      { name: "Rolex", price: 10000, description: d.break },
-      { name: "Q’Chia Fitfit", price: 14000, description: d.break },
-      { name: "Toast", price: 10000, description: d.break },
-      { name: "Fruit Salad", price: 10000, description: d.break },
+      { name: "La Forêt Special Breakfast", price: 30000, description: d.break, image: breakfastImg },
+      { name: "Omelette", price: 12000, description: d.break, image: omeletteImg },
+      { name: "Scrambled Eggs", price: 10000, description: d.break, image: scrambledImg },
+      { name: "Chapati with Gravy", price: 5000, description: d.break, image: chapatiGravyImg },
+      { name: "Rolex", price: 10000, description: d.break, image: rolexImg },
+      { name: "Q’Chia Fitfit", price: 14000, description: d.break, image: qchiaImg },
+      { name: "Toast", price: 10000, description: d.break, image: toastImg },
+      { name: "Fruit Salad", price: 10000, description: d.break, image: fruitSaladImg },
     ],
   },
   {
