@@ -57,7 +57,7 @@ export const Footer = () => (
       </div>
       <div className="border-t border-border/60 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-muted-foreground">
         <p>© {new Date().getFullYear()} La Forêt Bar &amp; Bistro. All rights reserved.</p>
-        <p className="tracking-[0.2em] uppercase">Crafted with quiet luxury</p>
+         <p className="tracking-[0.2em] uppercase">Created by : Michele Eyob</p>
       </div>
     </div>
   </footer>

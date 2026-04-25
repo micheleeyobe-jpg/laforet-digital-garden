@@ -22,7 +22,7 @@ export const Location = () => {
         <SectionHeading
           eyebrow="Find Us"
           title="Our Address in Kampala"
-          description="A quiet turn off Ggaba Road leads you into the forest."
+           description="Located in the heart of Muyenga, a quiet turn of Tank Hill Road."
         />
         <div className="grid lg:grid-cols-2 gap-10 items-stretch">
           <Reveal>
