@@ -1,4 +1,4 @@
-import expImg from "@/assets/experience.jpg";
+ import expImg from "@/assets/experience-new.jpg";
 import { Reveal } from "../Reveal";
 
 export const Experience = () => (
