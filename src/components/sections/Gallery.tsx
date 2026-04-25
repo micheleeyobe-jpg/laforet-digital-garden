@@ -48,7 +48,7 @@ export const Gallery = () => {
                   src={g.src}
                   alt={g.alt}
                   loading="lazy"
-                  className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-110"
+                  className="w-full h-full transition-transform duration-[1200ms] group-hover:scale-110 object-scale-down"
                 />
                 <figcaption className="absolute bottom-4 left-4 text-[10px] tracking-[0.3em] uppercase text-gold">
                   {g.category}
