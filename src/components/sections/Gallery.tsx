@@ -50,7 +50,6 @@ export const Gallery = () => {
                   loading="lazy"
                   className="w-full h-full object-cover transition-transform duration-[1200ms] group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/85 via-transparent to-transparent opacity-90" />
                 <figcaption className="absolute bottom-4 left-4 text-[10px] tracking-[0.3em] uppercase text-gold">
                   {g.category}
                 </figcaption>
