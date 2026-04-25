@@ -7,15 +7,15 @@ import food2 from "@/assets/gallery-food-2.jpg";
 
 export type GalleryItem = {
   src: string;
-   category: "food" | "Bar" | "Nightlife" | "cocktails";
+   category: "outdoor" | "Bar" | "Nightlife" | "cocktails";
   alt: string;
 };
 
 export const gallery: GalleryItem[] = [
-   { src: foodItem, category: "food", alt: "Signature food dish" },
+   { src: foodItem, category: "outdoor", alt: "Signature food dish" },
   { src: bar, category: "Bar", alt: "Backlit premium liquor bar shelf" },
   { src: nightlife, category: "Nightlife", alt: "Vibrant nightlife with stage lighting" },
    { src: cocktailsItem, category: "cocktails", alt: "Signature cocktail presentation" },
-   { src: garden2, category: "food", alt: "Outdoor seating at twilight" },
+   { src: garden2, category: "outdoor", alt: "Outdoor seating at twilight" },
    { src: food2, category: "cocktails", alt: "Signature dish presentation" },
 ];
