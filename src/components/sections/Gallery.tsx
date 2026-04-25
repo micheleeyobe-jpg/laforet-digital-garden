@@ -3,7 +3,7 @@ import { gallery } from "@/data/gallery";
 import { SectionHeading } from "../SectionHeading";
 import { Reveal } from "../Reveal";
 
-const cats = ["All", "Garden", "Bar", "Nightlife", "Food"] as const;
+ const cats = ["All", "food", "Bar", "Nightlife", "cocktails"] as const;
 
 export const Gallery = () => {
   const [filter, setFilter] = useState<(typeof cats)[number]>("All");
