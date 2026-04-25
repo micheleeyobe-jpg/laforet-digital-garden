@@ -24,7 +24,7 @@ export const Experience = () => (
           <span className="gold-divider my-7" />
           <div className="space-y-5 text-foreground/80 font-light text-lg leading-relaxed">
             <p>
-              Hidden in a verdant pocket off Ggaba Road, La Forêt is Kampala's most enchanting
+               Hidden in a verdant pocket off Tank Hill Road, La Forêt is Kampala's most enchanting
               after-dark sanctuary — a forest of velvet, candlelight and considered cuisine.
             </p>
             <p>
